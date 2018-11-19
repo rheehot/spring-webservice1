@@ -1,6 +1,7 @@
 package com.rheehot.webservice.domain.posts;
 
 //import com.rheehot.webservice.domain.BaseTimeEntity;
+import com.rheehot.webservice.domain.BaseTimeEntity;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
@@ -16,8 +17,7 @@ import javax.persistence.*;
 @NoArgsConstructor(access = AccessLevel.PROTECTED) //기본 생성자 자동 추가
 @Getter
 @Entity
-//public class Posts extends BaseTimeEntity {
-public class Posts {
+public class Posts extends BaseTimeEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

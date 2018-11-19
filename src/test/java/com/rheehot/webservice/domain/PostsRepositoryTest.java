@@ -1,6 +1,7 @@
 package com.rheehot.webservice.domain;
 
 import com.rheehot.webservice.domain.posts.Posts;
+import com.rheehot.webservice.domain.posts.PostsRepository;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

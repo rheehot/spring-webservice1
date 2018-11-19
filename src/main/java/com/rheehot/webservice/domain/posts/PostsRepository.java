@@ -1,6 +1,5 @@
-package com.rheehot.webservice.domain;
+package com.rheehot.webservice.domain.posts;
 
-import com.rheehot.webservice.domain.posts.Posts;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

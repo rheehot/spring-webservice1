@@ -1,6 +1,6 @@
 package com.rheehot.webservice.web;
 
-import com.rheehot.webservice.domain.PostsRepository;
+import com.rheehot.webservice.domain.posts.PostsRepository;
 import com.rheehot.webservice.domain.PostsSaveRequestDto;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
